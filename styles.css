@@ -1,0 +1,123 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo claro */
+    color: #333;
+}
+
+header {
+    background-color: #1e4598; /* Azul oscuro, en línea con los colores argentinos */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #ffcc00; /* Borde amarillo */
+}
+
+.logo {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em; /* Título de plataforma */
+}
+
+.slogan {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.1em;
+    padding: 0 10px;
+    border: 1px dashed white;
+    display: inline-block;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Introducción y Contexto */
+#introduccion h2 {
+    color: #008cba;
+    text-align: center;
+}
+
+.contexto {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+    margin: 20px 0;
+}
+
+/* Sección de Propuestas (Ejes) */
+#propuestas {
+    margin-top: 30px;
+}
+
+#propuestas h2 {
+    color: #1e4598;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #1e4598;
+    padding-bottom: 10px;
+}
+
+.eje-propuesta {
+    background-color: #e6f7ff; /* Fondo celeste suave para cada eje */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #b3e0ff;
+}
+
+.eje-propuesta h3 {
+    color: #008cba; /* Azul medio */
+    margin-top: 0;
+    border-bottom: 1px dotted #008cba;
+    padding-bottom: 5px;
+}
+
+.eje-propuesta ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.eje-propuesta li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.eje-propuesta li::before {
+    content: "·"; /* Ícono de check para las listas */
+    position: absolute;
+    left: 0;
+    color: #1e4598;
+}
+
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+/* Media Queries para Responsividad (Opcional, pero recomendado) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+}
